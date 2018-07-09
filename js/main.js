@@ -4,7 +4,7 @@ function myNumbers() {
     var a = parseInt(x) + parseInt(y);
     var b = x - y;
     var c = x * y;
-    if (a > 0 && b > 0 && c > 0) {
+    if (a >= 0 && b >= 0 && c >= 0) {
         console.log("Wynik dodawania wynosi " + a);
         console.log("Wynik odejmowania wynosi " + b);
         console.log("wynik mnożenia wynosi " + c);
